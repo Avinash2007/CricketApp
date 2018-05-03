@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2300AF001DB8021C003F3B73 /* ProfitAndLossVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2300AEFF1DB8021C003F3B73 /* ProfitAndLossVC.swift */; };
+		23376A071DFEB9D6008E5CF7 /* HawalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23376A061DFEB9D6008E5CF7 /* HawalaViewController.swift */; };
+		237BF27B1FB7E9C500FCB87F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237BF27A1FB7E9C500FCB87F /* Images.xcassets */; };
+		237E5FB820086AFA00ED8AA2 /* Partnership.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E5FB720086AFA00ED8AA2 /* Partnership.swift */; };
+		237E5FBA20086C3E00ED8AA2 /* PartnershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E5FB920086C3E00ED8AA2 /* PartnershipViewController.swift */; };
+		2381DBAD1DE360BB00FFDF22 /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2381DBAC1DE360BB00FFDF22 /* AutoCompleteTextField.swift */; };
+		23822DBA1E015B280012771D /* HawalaHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23822DB91E015B280012771D /* HawalaHistoryViewController.swift */; };
+		23CFB74E1E1FD62B00126AD0 /* ProfitAndLossVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2300AEFF1DB8021C003F3B73 /* ProfitAndLossVC.swift */; };
+		3CC4296D1D2A33ED004657A9 /* MatchSoda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4296C1D2A33ED004657A9 /* MatchSoda.swift */; };
+		693BF5FDBE76EEDFFDEB2757 /* Pods_CricketApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F25673310F40BDFDE4D1B5 /* Pods_CricketApp.framework */; };
+		780CB37F1D24ED860095377F /* TestMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CB37E1D24ED860095377F /* TestMatchViewController.swift */; };
+		780CB3811D24EDB40095377F /* TestMatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CB3801D24EDB40095377F /* TestMatchDetailViewController.swift */; };
+		7830A6331CED8135008877FE /* Bookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830A6301CED8135008877FE /* Bookie.swift */; };
+		7830A6341CED8135008877FE /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830A6311CED8135008877FE /* ModelManager.swift */; };
+		7830A6351CED8135008877FE /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830A6321CED8135008877FE /* Util.swift */; };
+		784551761D17B9FE0008D234 /* MatchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784551751D17B9FE0008D234 /* MatchClass.swift */; };
+		785DB7EC1D13C50B00A77843 /* SessionBookShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DB7EB1D13C50B00A77843 /* SessionBookShow.swift */; };
+		786BE13C1D41E4DA003A5ED3 /* MatchReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786BE13B1D41E4DA003A5ED3 /* MatchReportViewController.swift */; };
+		786BE13E1D41E4ED003A5ED3 /* SessionReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786BE13D1D41E4ED003A5ED3 /* SessionReportViewController.swift */; };
+		787E8FFB1D5C604F00D8345A /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787E8FFA1D5C604F00D8345A /* Settings.storyboard */; };
+		787E8FFD1D5CDD8200D8345A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E8FFC1D5CDD8200D8345A /* SettingsViewController.swift */; };
+		7887697D1CF340A900C5270C /* MatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7887697C1CF340A900C5270C /* MatchDetailViewController.swift */; };
+		78934E3B1CFA13230090B467 /* MatchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78934E3A1CFA13230090B467 /* MatchList.swift */; };
+		78A023571D3F45F300604737 /* BookieFullReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A023561D3F45F300604737 /* BookieFullReportViewController.swift */; };
+		78A023591D3FBF4100604737 /* MatchResport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A023581D3FBF4100604737 /* MatchResport.swift */; };
+		78A0235B1D3FBF4F00604737 /* SessionReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0235A1D3FBF4F00604737 /* SessionReport.swift */; };
+		78A0235D1D40A7B200604737 /* BookieSessionReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0235C1D40A7B200604737 /* BookieSessionReportViewController.swift */; };
+		78A0235F1D40A7C300604737 /* BookieMatchReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0235E1D40A7C300604737 /* BookieMatchReportViewController.swift */; };
+		78A52E151D06FACC0055527C /* AddInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A52E141D06FACC0055527C /* AddInfoViewController.swift */; };
+		78A52E1D1D0718890055527C /* Match.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A52E1B1D0718890055527C /* Match.storyboard */; };
+		78A52E221D0718C30055527C /* Session.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A52E201D0718C30055527C /* Session.storyboard */; };
+		78A52E241D0997AE0055527C /* ODIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A52E231D0997AE0055527C /* ODIViewController.swift */; };
+		78A52E261D099BBF0055527C /* ODIDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A52E251D099BBF0055527C /* ODIDetailViewController.swift */; };
+		78BD75D31CFDC3FE00B7197A /* SessionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD75D21CFDC3FE00B7197A /* SessionDetailViewController.swift */; };
+		78D3AD6F1CECA3B4007B8C4E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D3AD6E1CECA3B4007B8C4E /* libsqlite3.0.tbd */; };
+		78D3AD781CECBDC8007B8C4E /* CKTDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 78D3AD771CECBDC8007B8C4E /* CKTDB.sqlite */; };
+		78EAC8CA1CFEB55800E7AF4A /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EAC8C91CFEB55800E7AF4A /* Session.swift */; };
+		78EAC8CC1CFF0A2300E7AF4A /* SessionSoda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EAC8CB1CFF0A2300E7AF4A /* SessionSoda.swift */; };
+		78EAC8CF1CFF16D600E7AF4A /* SessionSodaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EAC8CE1CFF16D600E7AF4A /* SessionSodaViewController.swift */; };
+		78EE1D741D0D9BC0003585C6 /* AddSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE1D731D0D9BC0003585C6 /* AddSessionViewController.swift */; };
+		78EE1D761D0D9DC8003585C6 /* SessionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE1D751D0D9DC8003585C6 /* SessionListViewController.swift */; };
+		78EE1D781D0FDDC7003585C6 /* AllMatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE1D771D0FDDC7003585C6 /* AllMatchListViewController.swift */; };
+		78EE1D7C1D11257E003585C6 /* SessionSodaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE1D7B1D11257E003585C6 /* SessionSodaList.swift */; };
+		78F2C2FF1D3AA46D008A5CA8 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2C2FE1D3AA46D008A5CA8 /* Account.swift */; };
+		78F2C3021D3AA8F8008A5CA8 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2C3001D3AA8F8008A5CA8 /* ReportViewController.swift */; };
+		78F2C3031D3AA8F8008A5CA8 /* BookieReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2C3011D3AA8F8008A5CA8 /* BookieReportViewController.swift */; };
+		78F2C3051D3AA908008A5CA8 /* Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F2C3041D3AA908008A5CA8 /* Report.storyboard */; };
+		78F58CA01CEA09E000245FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F58C9F1CEA09E000245FB1 /* AppDelegate.swift */; };
+		78F58CA71CEA09E100245FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F58CA51CEA09E100245FB1 /* Main.storyboard */; };
+		78F58CA91CEA09E100245FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F58CA81CEA09E100245FB1 /* Assets.xcassets */; };
+		78F58CAC1CEA09E100245FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F58CAA1CEA09E100245FB1 /* LaunchScreen.storyboard */; };
+		78F58CB71CEA09E100245FB1 /* CricketAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F58CB61CEA09E100245FB1 /* CricketAppTests.swift */; };
+		78F58CC21CEA09E100245FB1 /* CricketAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F58CC11CEA09E100245FB1 /* CricketAppUITests.swift */; };
+		78F640B51CED85A200F6D501 /* BookieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F640B21CED85A200F6D501 /* BookieDetailViewController.swift */; };
+		78F640B61CED85A200F6D501 /* BookieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F640B31CED85A200F6D501 /* BookieViewController.swift */; };
+		78F640B71CED85A200F6D501 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F640B41CED85A200F6D501 /* MatchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78F58CB31CEA09E100245FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F58C941CEA09E000245FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F58C9B1CEA09E000245FB1;
+			remoteInfo = CricketApp;
+		};
+		78F58CBE1CEA09E100245FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F58C941CEA09E000245FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F58C9B1CEA09E000245FB1;
+			remoteInfo = CricketApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2300AEFF1DB8021C003F3B73 /* ProfitAndLossVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfitAndLossVC.swift; sourceTree = "<group>"; };
+		23376A061DFEB9D6008E5CF7 /* HawalaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HawalaViewController.swift; sourceTree = "<group>"; };
+		2368CAFC1EEABC13002AEC1F /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = "../../../../Users/avinashmeghnathi/Library/Developer/Xcode/DerivedData/CricketApp-fppxlxbetmllgleeojcemldvndby/Build/Products/Debug-iphonesimulator/FMDB/FMDB.framework"; sourceTree = "<group>"; };
+		2368CAFD1EEABC13002AEC1F /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = "../../../../Users/avinashmeghnathi/Library/Developer/Xcode/DerivedData/CricketApp-fppxlxbetmllgleeojcemldvndby/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework"; sourceTree = "<group>"; };
+		237BF2791FB7E88400FCB87F /* SplashImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashImg.png; sourceTree = "<group>"; };
+		237BF27A1FB7E9C500FCB87F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		237E5FB720086AFA00ED8AA2 /* Partnership.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partnership.swift; sourceTree = "<group>"; };
+		237E5FB920086C3E00ED8AA2 /* PartnershipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnershipViewController.swift; sourceTree = "<group>"; };
+		2381DBAC1DE360BB00FFDF22 /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextField.swift; sourceTree = "<group>"; };
+		23822DB91E015B280012771D /* HawalaHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HawalaHistoryViewController.swift; sourceTree = "<group>"; };
+		23D58AB02056340900FD1D9D /* CricketApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CricketApp.entitlements; sourceTree = "<group>"; };
+		3CC4296C1D2A33ED004657A9 /* MatchSoda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchSoda.swift; sourceTree = "<group>"; };
+		3CC429701D2A376F004657A9 /* CricketApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CricketApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		5020F7612A4FB47A1D28FBF4 /* Pods-CricketApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricketApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CricketApp/Pods-CricketApp.release.xcconfig"; sourceTree = "<group>"; };
+		780CB37E1D24ED860095377F /* TestMatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMatchViewController.swift; sourceTree = "<group>"; };
+		780CB3801D24EDB40095377F /* TestMatchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMatchDetailViewController.swift; sourceTree = "<group>"; };
+		7830A6301CED8135008877FE /* Bookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookie.swift; sourceTree = "<group>"; };
+		7830A6311CED8135008877FE /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		7830A6321CED8135008877FE /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		784551751D17B9FE0008D234 /* MatchClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchClass.swift; sourceTree = "<group>"; };
+		785DB7EB1D13C50B00A77843 /* SessionBookShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionBookShow.swift; sourceTree = "<group>"; };
+		786BE13B1D41E4DA003A5ED3 /* MatchReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchReportViewController.swift; sourceTree = "<group>"; };
+		786BE13D1D41E4ED003A5ED3 /* SessionReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionReportViewController.swift; sourceTree = "<group>"; };
+		787E8FFA1D5C604F00D8345A /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		787E8FFC1D5CDD8200D8345A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7887697C1CF340A900C5270C /* MatchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDetailViewController.swift; sourceTree = "<group>"; };
+		78934E3A1CFA13230090B467 /* MatchList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchList.swift; sourceTree = "<group>"; };
+		78A023561D3F45F300604737 /* BookieFullReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookieFullReportViewController.swift; sourceTree = "<group>"; };
+		78A023581D3FBF4100604737 /* MatchResport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchResport.swift; sourceTree = "<group>"; };
+		78A0235A1D3FBF4F00604737 /* SessionReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionReport.swift; sourceTree = "<group>"; };
+		78A0235C1D40A7B200604737 /* BookieSessionReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookieSessionReportViewController.swift; sourceTree = "<group>"; };
+		78A0235E1D40A7C300604737 /* BookieMatchReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookieMatchReportViewController.swift; sourceTree = "<group>"; };
+		78A52E141D06FACC0055527C /* AddInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInfoViewController.swift; sourceTree = "<group>"; };
+		78A52E1C1D0718890055527C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Match.storyboard; sourceTree = "<group>"; };
+		78A52E211D0718C30055527C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Session.storyboard; sourceTree = "<group>"; };
+		78A52E231D0997AE0055527C /* ODIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODIViewController.swift; sourceTree = "<group>"; };
+		78A52E251D099BBF0055527C /* ODIDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODIDetailViewController.swift; sourceTree = "<group>"; };
+		78BD75D21CFDC3FE00B7197A /* SessionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDetailViewController.swift; sourceTree = "<group>"; };
+		78D3AD6E1CECA3B4007B8C4E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		78D3AD771CECBDC8007B8C4E /* CKTDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CKTDB.sqlite; sourceTree = "<group>"; };
+		78EAC8C91CFEB55800E7AF4A /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		78EAC8CB1CFF0A2300E7AF4A /* SessionSoda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionSoda.swift; sourceTree = "<group>"; };
+		78EAC8CE1CFF16D600E7AF4A /* SessionSodaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionSodaViewController.swift; sourceTree = "<group>"; };
+		78EE1D731D0D9BC0003585C6 /* AddSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSessionViewController.swift; sourceTree = "<group>"; };
+		78EE1D751D0D9DC8003585C6 /* SessionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListViewController.swift; sourceTree = "<group>"; };
+		78EE1D771D0FDDC7003585C6 /* AllMatchListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllMatchListViewController.swift; sourceTree = "<group>"; };
+		78EE1D7B1D11257E003585C6 /* SessionSodaList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionSodaList.swift; sourceTree = "<group>"; };
+		78F2C2FE1D3AA46D008A5CA8 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		78F2C3001D3AA8F8008A5CA8 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		78F2C3011D3AA8F8008A5CA8 /* BookieReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookieReportViewController.swift; sourceTree = "<group>"; };
+		78F2C3041D3AA908008A5CA8 /* Report.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Report.storyboard; sourceTree = "<group>"; };
+		78F58C9C1CEA09E000245FB1 /* CricketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F58C9F1CEA09E000245FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78F58CA61CEA09E100245FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78F58CA81CEA09E100245FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78F58CAB1CEA09E100245FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78F58CAD1CEA09E100245FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F58CB21CEA09E100245FB1 /* CricketAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F58CB61CEA09E100245FB1 /* CricketAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketAppTests.swift; sourceTree = "<group>"; };
+		78F58CB81CEA09E100245FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F58CBD1CEA09E100245FB1 /* CricketAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F58CC11CEA09E100245FB1 /* CricketAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketAppUITests.swift; sourceTree = "<group>"; };
+		78F58CC31CEA09E100245FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F640B21CED85A200F6D501 /* BookieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookieDetailViewController.swift; sourceTree = "<group>"; };
+		78F640B31CED85A200F6D501 /* BookieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookieViewController.swift; sourceTree = "<group>"; };
+		78F640B41CED85A200F6D501 /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		9EF1808A94C95C9881BD4133 /* Pods_CricketAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CricketAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D146E414BFB4704106359A /* Pods_CricketAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CricketAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32C63D312CD3BEB10932086 /* Pods-CricketApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricketApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CricketApp/Pods-CricketApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F25673310F40BDFDE4D1B5 /* Pods_CricketApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CricketApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78F58C991CEA09E000245FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D3AD6F1CECA3B4007B8C4E /* libsqlite3.0.tbd in Frameworks */,
+				693BF5FDBE76EEDFFDEB2757 /* Pods_CricketApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F58CAF1CEA09E100245FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F58CBA1CEA09E100245FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2383BD621FBC725500B2A4CC /* Add Info */ = {
+			isa = PBXGroup;
+			children = (
+				78A52E141D06FACC0055527C /* AddInfoViewController.swift */,
+				78F640B21CED85A200F6D501 /* BookieDetailViewController.swift */,
+				237E5FB920086C3E00ED8AA2 /* PartnershipViewController.swift */,
+				78F640B31CED85A200F6D501 /* BookieViewController.swift */,
+				78A52E231D0997AE0055527C /* ODIViewController.swift */,
+				78A52E251D099BBF0055527C /* ODIDetailViewController.swift */,
+				78EE1D751D0D9DC8003585C6 /* SessionListViewController.swift */,
+				78EE1D731D0D9BC0003585C6 /* AddSessionViewController.swift */,
+			);
+			name = "Add Info";
+			sourceTree = "<group>";
+		};
+		2383BD651FBC72AB00B2A4CC /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				78EE1D771D0FDDC7003585C6 /* AllMatchListViewController.swift */,
+				78F640B41CED85A200F6D501 /* MatchViewController.swift */,
+				7887697C1CF340A900C5270C /* MatchDetailViewController.swift */,
+				780CB37E1D24ED860095377F /* TestMatchViewController.swift */,
+				780CB3801D24EDB40095377F /* TestMatchDetailViewController.swift */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		2383BD661FBC72BD00B2A4CC /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				78BD75D21CFDC3FE00B7197A /* SessionDetailViewController.swift */,
+				78EAC8CE1CFF16D600E7AF4A /* SessionSodaViewController.swift */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		2383BD671FBC72C400B2A4CC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				787E8FFC1D5CDD8200D8345A /* SettingsViewController.swift */,
+				23822DB91E015B280012771D /* HawalaHistoryViewController.swift */,
+				23376A061DFEB9D6008E5CF7 /* HawalaViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		2383BD681FBC74AF00B2A4CC /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				78F2C3001D3AA8F8008A5CA8 /* ReportViewController.swift */,
+				78F2C3011D3AA8F8008A5CA8 /* BookieReportViewController.swift */,
+				78A023561D3F45F300604737 /* BookieFullReportViewController.swift */,
+				78A0235C1D40A7B200604737 /* BookieSessionReportViewController.swift */,
+				78A0235E1D40A7C300604737 /* BookieMatchReportViewController.swift */,
+				786BE13B1D41E4DA003A5ED3 /* MatchReportViewController.swift */,
+				786BE13D1D41E4ED003A5ED3 /* SessionReportViewController.swift */,
+				2300AEFF1DB8021C003F3B73 /* ProfitAndLossVC.swift */,
+			);
+			name = Report;
+			sourceTree = "<group>";
+		};
+		78F58C931CEA09E000245FB1 = {
+			isa = PBXGroup;
+			children = (
+				78F58C9E1CEA09E000245FB1 /* CricketApp */,
+				78F58CB51CEA09E100245FB1 /* CricketAppTests */,
+				78F58CC01CEA09E100245FB1 /* CricketAppUITests */,
+				78F58C9D1CEA09E000245FB1 /* Products */,
+				856D69953719BA2A63E2A4A6 /* Frameworks */,
+				7E3453342FBD3106B8E5E9A8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		78F58C9D1CEA09E000245FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78F58C9C1CEA09E000245FB1 /* CricketApp.app */,
+				78F58CB21CEA09E100245FB1 /* CricketAppTests.xctest */,
+				78F58CBD1CEA09E100245FB1 /* CricketAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78F58C9E1CEA09E000245FB1 /* CricketApp */ = {
+			isa = PBXGroup;
+			children = (
+				23D58AB02056340900FD1D9D /* CricketApp.entitlements */,
+				237BF2791FB7E88400FCB87F /* SplashImg.png */,
+				78F58C9F1CEA09E000245FB1 /* AppDelegate.swift */,
+				2381DBAC1DE360BB00FFDF22 /* AutoCompleteTextField.swift */,
+				3CC429701D2A376F004657A9 /* CricketApp-Bridging-Header.h */,
+				78D3AD771CECBDC8007B8C4E /* CKTDB.sqlite */,
+				78F640B11CED859000F6D501 /* Controllers */,
+				78F640B01CED857900F6D501 /* Model */,
+				78F58CA51CEA09E100245FB1 /* Main.storyboard */,
+				78A52E1B1D0718890055527C /* Match.storyboard */,
+				78A52E201D0718C30055527C /* Session.storyboard */,
+				78F2C3041D3AA908008A5CA8 /* Report.storyboard */,
+				787E8FFA1D5C604F00D8345A /* Settings.storyboard */,
+				78F58CA81CEA09E100245FB1 /* Assets.xcassets */,
+				78F58CAA1CEA09E100245FB1 /* LaunchScreen.storyboard */,
+				78F58CAD1CEA09E100245FB1 /* Info.plist */,
+				237BF27A1FB7E9C500FCB87F /* Images.xcassets */,
+			);
+			path = CricketApp;
+			sourceTree = "<group>";
+		};
+		78F58CB51CEA09E100245FB1 /* CricketAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				78F58CB61CEA09E100245FB1 /* CricketAppTests.swift */,
+				78F58CB81CEA09E100245FB1 /* Info.plist */,
+			);
+			path = CricketAppTests;
+			sourceTree = "<group>";
+		};
+		78F58CC01CEA09E100245FB1 /* CricketAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78F58CC11CEA09E100245FB1 /* CricketAppUITests.swift */,
+				78F58CC31CEA09E100245FB1 /* Info.plist */,
+			);
+			path = CricketAppUITests;
+			sourceTree = "<group>";
+		};
+		78F640B01CED857900F6D501 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				237E5FB720086AFA00ED8AA2 /* Partnership.swift */,
+				7830A6301CED8135008877FE /* Bookie.swift */,
+				7830A6311CED8135008877FE /* ModelManager.swift */,
+				7830A6321CED8135008877FE /* Util.swift */,
+				3CC4296C1D2A33ED004657A9 /* MatchSoda.swift */,
+				78934E3A1CFA13230090B467 /* MatchList.swift */,
+				784551751D17B9FE0008D234 /* MatchClass.swift */,
+				78EAC8C91CFEB55800E7AF4A /* Session.swift */,
+				78EE1D7B1D11257E003585C6 /* SessionSodaList.swift */,
+				78EAC8CB1CFF0A2300E7AF4A /* SessionSoda.swift */,
+				785DB7EB1D13C50B00A77843 /* SessionBookShow.swift */,
+				78F2C2FE1D3AA46D008A5CA8 /* Account.swift */,
+				78A023581D3FBF4100604737 /* MatchResport.swift */,
+				78A0235A1D3FBF4F00604737 /* SessionReport.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		78F640B11CED859000F6D501 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2383BD681FBC74AF00B2A4CC /* Report */,
+				2383BD671FBC72C400B2A4CC /* Settings */,
+				2383BD661FBC72BD00B2A4CC /* Session */,
+				2383BD651FBC72AB00B2A4CC /* Match */,
+				2383BD621FBC725500B2A4CC /* Add Info */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7E3453342FBD3106B8E5E9A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C32C63D312CD3BEB10932086 /* Pods-CricketApp.debug.xcconfig */,
+				5020F7612A4FB47A1D28FBF4 /* Pods-CricketApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		856D69953719BA2A63E2A4A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2368CAFC1EEABC13002AEC1F /* FMDB.framework */,
+				2368CAFD1EEABC13002AEC1F /* IQKeyboardManagerSwift.framework */,
+				78D3AD6E1CECA3B4007B8C4E /* libsqlite3.0.tbd */,
+				E0F25673310F40BDFDE4D1B5 /* Pods_CricketApp.framework */,
+				9EF1808A94C95C9881BD4133 /* Pods_CricketAppTests.framework */,
+				A5D146E414BFB4704106359A /* Pods_CricketAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78F58C9B1CEA09E000245FB1 /* CricketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F58CC61CEA09E100245FB1 /* Build configuration list for PBXNativeTarget "CricketApp" */;
+			buildPhases = (
+				03942F062A716598E906BE7E /* [CP] Check Pods Manifest.lock */,
+				78F58C981CEA09E000245FB1 /* Sources */,
+				78F58C991CEA09E000245FB1 /* Frameworks */,
+				78F58C9A1CEA09E000245FB1 /* Resources */,
+				FAE54C862FAFD06AFC576632 /* [CP] Embed Pods Frameworks */,
+				8744970010AEBE1ED2260DFB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricketApp;
+			productName = CricketApp;
+			productReference = 78F58C9C1CEA09E000245FB1 /* CricketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78F58CB11CEA09E100245FB1 /* CricketAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F58CC91CEA09E100245FB1 /* Build configuration list for PBXNativeTarget "CricketAppTests" */;
+			buildPhases = (
+				78F58CAE1CEA09E100245FB1 /* Sources */,
+				78F58CAF1CEA09E100245FB1 /* Frameworks */,
+				78F58CB01CEA09E100245FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F58CB41CEA09E100245FB1 /* PBXTargetDependency */,
+			);
+			name = CricketAppTests;
+			productName = CricketAppTests;
+			productReference = 78F58CB21CEA09E100245FB1 /* CricketAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78F58CBC1CEA09E100245FB1 /* CricketAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F58CCC1CEA09E100245FB1 /* Build configuration list for PBXNativeTarget "CricketAppUITests" */;
+			buildPhases = (
+				78F58CB91CEA09E100245FB1 /* Sources */,
+				78F58CBA1CEA09E100245FB1 /* Frameworks */,
+				78F58CBB1CEA09E100245FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F58CBF1CEA09E100245FB1 /* PBXTargetDependency */,
+			);
+			name = CricketAppUITests;
+			productName = CricketAppUITests;
+			productReference = 78F58CBD1CEA09E100245FB1 /* CricketAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78F58C941CEA09E000245FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Avinash Meghnathi";
+				TargetAttributes = {
+					78F58C9B1CEA09E000245FB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 93JZKRH4VW;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					78F58CB11CEA09E100245FB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 78F58C9B1CEA09E000245FB1;
+					};
+					78F58CBC1CEA09E100245FB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						TestTargetID = 78F58C9B1CEA09E000245FB1;
+					};
+				};
+			};
+			buildConfigurationList = 78F58C971CEA09E000245FB1 /* Build configuration list for PBXProject "CricketApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78F58C931CEA09E000245FB1;
+			productRefGroup = 78F58C9D1CEA09E000245FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78F58C9B1CEA09E000245FB1 /* CricketApp */,
+				78F58CB11CEA09E100245FB1 /* CricketAppTests */,
+				78F58CBC1CEA09E100245FB1 /* CricketAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78F58C9A1CEA09E000245FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237BF27B1FB7E9C500FCB87F /* Images.xcassets in Resources */,
+				78D3AD781CECBDC8007B8C4E /* CKTDB.sqlite in Resources */,
+				78F2C3051D3AA908008A5CA8 /* Report.storyboard in Resources */,
+				78F58CAC1CEA09E100245FB1 /* LaunchScreen.storyboard in Resources */,
+				78F58CA91CEA09E100245FB1 /* Assets.xcassets in Resources */,
+				78F58CA71CEA09E100245FB1 /* Main.storyboard in Resources */,
+				787E8FFB1D5C604F00D8345A /* Settings.storyboard in Resources */,
+				78A52E1D1D0718890055527C /* Match.storyboard in Resources */,
+				78A52E221D0718C30055527C /* Session.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F58CB01CEA09E100245FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F58CBB1CEA09E100245FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03942F062A716598E906BE7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CricketApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8744970010AEBE1ED2260DFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CricketApp/Pods-CricketApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE54C862FAFD06AFC576632 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CricketApp/Pods-CricketApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CricketApp/Pods-CricketApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78F58C981CEA09E000245FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7830A6331CED8135008877FE /* Bookie.swift in Sources */,
+				78EE1D741D0D9BC0003585C6 /* AddSessionViewController.swift in Sources */,
+				78A0235F1D40A7C300604737 /* BookieMatchReportViewController.swift in Sources */,
+				23376A071DFEB9D6008E5CF7 /* HawalaViewController.swift in Sources */,
+				78EAC8CC1CFF0A2300E7AF4A /* SessionSoda.swift in Sources */,
+				787E8FFD1D5CDD8200D8345A /* SettingsViewController.swift in Sources */,
+				78F58CA01CEA09E000245FB1 /* AppDelegate.swift in Sources */,
+				78F640B71CED85A200F6D501 /* MatchViewController.swift in Sources */,
+				78A023571D3F45F300604737 /* BookieFullReportViewController.swift in Sources */,
+				78EE1D761D0D9DC8003585C6 /* SessionListViewController.swift in Sources */,
+				7830A6341CED8135008877FE /* ModelManager.swift in Sources */,
+				780CB37F1D24ED860095377F /* TestMatchViewController.swift in Sources */,
+				78A023591D3FBF4100604737 /* MatchResport.swift in Sources */,
+				78A52E151D06FACC0055527C /* AddInfoViewController.swift in Sources */,
+				78A52E261D099BBF0055527C /* ODIDetailViewController.swift in Sources */,
+				78F640B61CED85A200F6D501 /* BookieViewController.swift in Sources */,
+				237E5FB820086AFA00ED8AA2 /* Partnership.swift in Sources */,
+				78A0235B1D3FBF4F00604737 /* SessionReport.swift in Sources */,
+				2300AF001DB8021C003F3B73 /* ProfitAndLossVC.swift in Sources */,
+				780CB3811D24EDB40095377F /* TestMatchDetailViewController.swift in Sources */,
+				78EAC8CF1CFF16D600E7AF4A /* SessionSodaViewController.swift in Sources */,
+				3CC4296D1D2A33ED004657A9 /* MatchSoda.swift in Sources */,
+				78A0235D1D40A7B200604737 /* BookieSessionReportViewController.swift in Sources */,
+				78F2C3031D3AA8F8008A5CA8 /* BookieReportViewController.swift in Sources */,
+				78A52E241D0997AE0055527C /* ODIViewController.swift in Sources */,
+				78934E3B1CFA13230090B467 /* MatchList.swift in Sources */,
+				78F640B51CED85A200F6D501 /* BookieDetailViewController.swift in Sources */,
+				785DB7EC1D13C50B00A77843 /* SessionBookShow.swift in Sources */,
+				786BE13E1D41E4ED003A5ED3 /* SessionReportViewController.swift in Sources */,
+				78EE1D781D0FDDC7003585C6 /* AllMatchListViewController.swift in Sources */,
+				78F2C3021D3AA8F8008A5CA8 /* ReportViewController.swift in Sources */,
+				786BE13C1D41E4DA003A5ED3 /* MatchReportViewController.swift in Sources */,
+				78EAC8CA1CFEB55800E7AF4A /* Session.swift in Sources */,
+				78EE1D7C1D11257E003585C6 /* SessionSodaList.swift in Sources */,
+				23822DBA1E015B280012771D /* HawalaHistoryViewController.swift in Sources */,
+				237E5FBA20086C3E00ED8AA2 /* PartnershipViewController.swift in Sources */,
+				7887697D1CF340A900C5270C /* MatchDetailViewController.swift in Sources */,
+				78F2C2FF1D3AA46D008A5CA8 /* Account.swift in Sources */,
+				78BD75D31CFDC3FE00B7197A /* SessionDetailViewController.swift in Sources */,
+				784551761D17B9FE0008D234 /* MatchClass.swift in Sources */,
+				7830A6351CED8135008877FE /* Util.swift in Sources */,
+				2381DBAD1DE360BB00FFDF22 /* AutoCompleteTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F58CAE1CEA09E100245FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F58CB71CEA09E100245FB1 /* CricketAppTests.swift in Sources */,
+				23CFB74E1E1FD62B00126AD0 /* ProfitAndLossVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F58CB91CEA09E100245FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F58CC21CEA09E100245FB1 /* CricketAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78F58CB41CEA09E100245FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F58C9B1CEA09E000245FB1 /* CricketApp */;
+			targetProxy = 78F58CB31CEA09E100245FB1 /* PBXContainerItemProxy */;
+		};
+		78F58CBF1CEA09E100245FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F58C9B1CEA09E000245FB1 /* CricketApp */;
+			targetProxy = 78F58CBE1CEA09E100245FB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78A52E1B1D0718890055527C /* Match.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A52E1C1D0718890055527C /* Base */,
+			);
+			name = Match.storyboard;
+			sourceTree = "<group>";
+		};
+		78A52E201D0718C30055527C /* Session.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A52E211D0718C30055527C /* Base */,
+			);
+			name = Session.storyboard;
+			sourceTree = "<group>";
+		};
+		78F58CA51CEA09E100245FB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F58CA61CEA09E100245FB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78F58CAA1CEA09E100245FB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F58CAB1CEA09E100245FB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78F58CC41CEA09E100245FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		78F58CC51CEA09E100245FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		78F58CC71CEA09E100245FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32C63D312CD3BEB10932086 /* Pods-CricketApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CricketApp/CricketApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Voight Holgar (DRQ7HDW8W6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JZKRH4VW;
+				INFOPLIST_FILE = CricketApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeDoApps.CricketCalc;
+				PRODUCT_NAME = CricketApp;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CricketApp/CricketApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		78F58CC81CEA09E100245FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5020F7612A4FB47A1D28FBF4 /* Pods-CricketApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CricketApp/CricketApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Voight Holgar (DRQ7HDW8W6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JZKRH4VW;
+				INFOPLIST_FILE = CricketApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WeDoApps.CricketCalc;
+				PRODUCT_NAME = CricketApp;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CricketApp/CricketApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		78F58CCA1CEA09E100245FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CricketAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Avinash.CricketAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricketApp.app/CricketApp";
+			};
+			name = Debug;
+		};
+		78F58CCB1CEA09E100245FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CricketAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Avinash.CricketAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricketApp.app/CricketApp";
+			};
+			name = Release;
+		};
+		78F58CCD1CEA09E100245FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CricketAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Avinash.CricketAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CricketApp;
+			};
+			name = Debug;
+		};
+		78F58CCE1CEA09E100245FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CricketAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Avinash.CricketAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CricketApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78F58C971CEA09E000245FB1 /* Build configuration list for PBXProject "CricketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F58CC41CEA09E100245FB1 /* Debug */,
+				78F58CC51CEA09E100245FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F58CC61CEA09E100245FB1 /* Build configuration list for PBXNativeTarget "CricketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F58CC71CEA09E100245FB1 /* Debug */,
+				78F58CC81CEA09E100245FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F58CC91CEA09E100245FB1 /* Build configuration list for PBXNativeTarget "CricketAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F58CCA1CEA09E100245FB1 /* Debug */,
+				78F58CCB1CEA09E100245FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F58CCC1CEA09E100245FB1 /* Build configuration list for PBXNativeTarget "CricketAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F58CCD1CEA09E100245FB1 /* Debug */,
+				78F58CCE1CEA09E100245FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78F58C941CEA09E000245FB1 /* Project object */;
+}
